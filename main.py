@@ -190,6 +190,7 @@ def main():
         count_to_next_hit += 1
         i += 1
 
+
         clock.tick(FPS)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
